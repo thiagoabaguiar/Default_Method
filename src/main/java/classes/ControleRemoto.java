@@ -6,8 +6,10 @@ package classes;
  */
 public interface ControleRemoto {
 
+    // exemplo de constante em uma interface
     int valor = 9;
 
+    // método abstrato (sem implementação)
     public String status();
 
     /* método concreto existente numa interface o qual não exige implementação
